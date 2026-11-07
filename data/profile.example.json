@@ -1,0 +1,49 @@
+{
+  "personal": {
+    "name": "",
+    "email": "",
+    "phone": "",
+    "city": "",
+    "linkedin": "",
+    "portfolio": "",
+    "github": ""
+  },
+  "summary_base": "",
+  "education": [
+    {
+      "degree": "",
+      "school": "",
+      "dates": "",
+      "details": [""]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "exp1",
+      "title": "",
+      "organization": "",
+      "dates": "",
+      "bullets": [""],
+      "skills": [""]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "name": "",
+      "stack": "",
+      "dates": "",
+      "bullets": [""],
+      "skills": [""]
+    }
+  ],
+  "skills": {
+    "languages": [""],
+    "data_ai": [""],
+    "tools": [""]
+  },
+  "certifications": [""],
+  "languages": [
+    { "name": "", "level": "" }
+  ]
+}

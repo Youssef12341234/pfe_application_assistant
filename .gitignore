@@ -1,0 +1,13 @@
+# Donnees personnelles
+data/profile.json
+
+# Secrets
+.env
+
+# Fichiers generes
+out/
+*.pdf
+
+# Divers
+__pycache__/
+.vscode/

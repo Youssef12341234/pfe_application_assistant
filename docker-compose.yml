@@ -1,0 +1,22 @@
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n
+    container_name: n8n
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      - GENERIC_TIMEZONE=Africa/Casablanca
+      - TZ=Africa/Casablanca
+    volumes:
+      - n8n_data:/home/node/.n8n
+
+  latex:
+    build: ./latex-service
+    container_name: latex
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8000:8000"
+
+volumes:
+  n8n_data:
